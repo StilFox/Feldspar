@@ -1,0 +1,26 @@
+{
+  "name": "Feldspar",
+  "productName": "Feldspar",
+  "version": "0.1.1",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "StilFox",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.10.2",
+    "@electron-forge/maker-zip": "^7.10.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.10.2",
+    "@electron-forge/plugin-fuses": "^7.10.2",
+    "@electron/fuses": "^1.8.0",
+    "electron": "39.1.1",
+    "three": "^0.182.0"
+  },
+  "dependencies": {
+    "@stil-fox/cavebulb": "^0.1.4"
+  }
+}

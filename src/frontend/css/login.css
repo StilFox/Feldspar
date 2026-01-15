@@ -1,0 +1,74 @@
+
+#screenLoginWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginArea{
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+
+#loginLogo{
+  width: 201px;
+  height: 138px;
+  left: 320px; /* 420 - (201 / 2) */
+  top: 146px;  /* 215 - (138 / 2) */
+  position: absolute;
+}
+
+#loginCredArea{
+  width: 150px;
+  height: 150px;
+  left: 345px;
+  top: 310px;
+
+  /* TODO: need to work on font stuff.. */
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 16px;
+
+  color: white;
+  position: absolute;
+}
+#loginCredArea>input[type="text"], input[type="password"]{
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 20px;
+  padding: 0px;
+  cursor: unset;
+
+  /* TODO: need to work on font stuff.. */
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 16px;
+}
+
+#loginUsernameLabel{
+  top: 0px;
+  position: absolute;
+}
+
+#loginUsername{
+  top: 20px;
+  position: absolute;
+}
+
+#loginPasswordLabel{
+  top: 60px;
+  position: absolute;
+}
+
+#loginPassword{
+  top: 80px;
+  position: absolute;
+}
+
+#loginButton{
+  width: 93px;
+  height: 28px;
+  left: 373px;
+  top: 460px;
+  position: absolute;
+}

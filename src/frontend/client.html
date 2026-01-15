@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feldspar</title>
+    <link rel="stylesheet" href="css/dynamic.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <script type="text/javascript" src="importmap.js"></script>
+    <script type="text/javascript" src="notification.js" defer></script>
+    <script type="text/javascript" src="screens.js" defer></script>
+    <script type="text/javascript" src="resource.js" defer></script>
+    <script type="text/javascript" src="login.js" defer></script>
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body class="noselect">
+    <div id="notificationWrapper" class="hidden">
+      <div id="notificationText"></div>
+    </div>
+    <div id="screenLoginWrapper" class="screen hidden">
+      <div id="loginArea">
+        <div id="loginLogo"></div>
+        <div id="loginCredArea">
+          <span id="loginUsernameLabel">User name</span>
+          <input id="loginUsername" type="text" spellcheck="false">
+          <span id="loginPasswordLabel">Password</span>
+          <input id="loginPassword" type="password" spellcheck="false">
+        </div>
+        <div id="loginButton"></div>
+      </div>
+    </div>
+    <div id="screenCharselectWrapper" class="screen hidden"></div>
+    <div id="screenGameWrapper" class="screen hidden">
+      <canvas id="gameCanvas"></canvas>
+    </div>
+  </body>
+</html>
